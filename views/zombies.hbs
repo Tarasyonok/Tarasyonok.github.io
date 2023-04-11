@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pvz almanac</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima&family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/zombies.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="return-button">
+            <a href="/">
+                <img src="assets/return zombies.png" alt="">
+            </a>
+        </div>
+    </header>
+    <main>
+        <header class="text-center">
+            <div class="zombies-title mb-3 mt-2">
+                <h1 class="text-center zombies-text mt-1">
+                    zombies {{!-- <a href="/" class="btn btn-success">На главную</a> --}}
+                </h1>
+            </div>
+        </header>
+        <div class="container mb-5">
+
+            <div class="row">
+                <div class="d-flex flex-wrap justify-content-center align-content-start col-lg-9 col-md-7 col-5" style="gap: 15px;">
+                    {{#each zombies}}
+                    <a href="/zombies?id={{ this.id }}"><img src="assets/zombies/{{ this.img }}" class="zombie-image mt-1"
+                            alt=""></a>
+                    {{/each}}
+                </div>
+                <div class="col-lg-3 col-md-5 col-7">
+                    <div class="show-zombie">
+                        <img src="assets/zombies/{{ img }}" class="card-img-top" alt="...">
+                        <h4 class="card-title text-center">{{ name }}</h4>
+                        <div class="show-zombie-paper" style="background-color: #B8A8D7; color: #6C453E;">
+                            <p class="card-text">{{ description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
