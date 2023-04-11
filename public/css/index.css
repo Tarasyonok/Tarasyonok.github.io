@@ -1,0 +1,59 @@
+body {
+    background-color: #F9C589 !important;
+}
+
+.return-button {
+    position: absolute;
+    left: 30px;
+    
+}
+
+.ordinary-text {
+    font-family: 'Black Ops One', cursive;
+}
+
+.plants-text {
+    font-family: 'Arima', cursive;
+    color: #BF751C;
+}
+
+.plants-card {
+    font-family: 'Arima', cursive;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border: solid #812E03 10px;
+    border-radius: 5px;
+    background-color: #602407;
+    text-decoration: none;
+    color: #BF751C;
+}
+
+.zombies-card {
+    font-family: 'Creepster', cursive;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border: solid #686F92 10px;
+    border-radius: 5px;
+    background-color: #252737;
+    text-decoration: none;
+    color: #3A7F17;
+}
+
+.plant-image {
+    box-shadow: 5px;
+    width: 100px;
+    height: 100px;
+    border: solid #BF751C 5px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.zombie-image {
+    width: 100px;
+    height: 100px;
+    border: solid gray 5px;
+    border-radius: 5px;
+    object-fit: cover;
+}

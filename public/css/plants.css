@@ -1,0 +1,51 @@
+.container {
+    padding: 20px;
+    margin: auto;
+    font-family: 'Arima', cursive;
+    border: solid #d3ab7c 3px;
+    border-radius: 5px;
+    color: #BF751C;
+}
+
+p {
+    margin-left: 5px;
+}
+
+
+.plants-title {
+    font-family: 'Arima', cursive;
+    width: 700px;
+    height: 75px;
+    text-align: center;
+    margin: auto auto;
+    border: solid #812E03 10px;
+    border-radius: 5px;
+    background-color: #602407;
+    text-decoration: none;
+    color: #BF751C;
+}
+
+
+.card-title {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #602407;
+}
+
+.show-plant {
+    font-family: 'Arima', cursive;
+    /*min-width: 300px;*/
+    min-height: 600px;
+    border: solid #812E03 10px;
+    border-radius: 5px;
+    background-color: #CC8659;/*#602407;*/
+    text-decoration: none;
+    color: #BF751C;
+}
+
+.show-plant-paper {
+    margin: 10px;
+    border-radius: 3px;
+    background-color: #CC8659;
+    color: #863B0D;
+}
