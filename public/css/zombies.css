@@ -1,0 +1,52 @@
+.container {
+    padding: 20px;
+    margin: auto;
+    font-family: 'Arima', cursive;
+    border: solid #d3ab7c 3px;
+    border-radius: 5px;
+    color: #BF751C;
+}
+
+p {
+    margin-left: 5px;
+}
+
+
+.zombies-title {
+    font-family: 'Creepster', cursive;
+    width: 700px;
+    height: 75px;
+    text-align: center;
+    margin: auto auto;
+    border: solid #697397 10px;
+    border-radius: 5px;
+    background-color: #4d4c66;
+    text-decoration: none;
+    color: #3A7F17;
+}
+
+
+.card-title {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #4d4c66;
+}
+
+.show-zombie {
+    font-family: 'Creepster', cursive;
+    /*min-width: 300px;*/
+    min-height: 600px;
+    border: solid #4d4c66 10px;
+    border-radius: 5px;
+    background-color: #B8A8D7;/*#602407;*/
+    text-decoration: none;
+    color: #3A7F17;
+}
+
+.show-zombie-paper {
+    font-family: "Comic Sans MS" !important;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: #B8A8D7;
+    color: #863B0D;
+}
