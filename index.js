@@ -1,10 +1,10 @@
 let express = require(`express`);
 let app = express();
-let port = 3000;
+// let port = 3000;
 
-app.listen(port, function () {
-    console.log(`Сервер запущен по такому адресу: http://localhost:${port}`);
-});
+// app.listen(port, function () {
+//     console.log(`Сервер запущен по такому адресу: http://localhost:${port}`);
+// });
 
 app.use(express.static(`public`));
 
