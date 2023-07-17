@@ -178,3 +178,6 @@ app.post(`/admin/create_new/zombies`, function (req, res) {
     );
     res.redirect(`/admin?show=zombies`);
 });
+
+// never mind what is this:
+// https://music.yandex.ru/users/tarasyonochek/playlists/1002
